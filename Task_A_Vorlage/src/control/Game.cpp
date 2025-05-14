@@ -2,6 +2,8 @@
 
 #include <SFML/Window/Keyboard.hpp>
 
+// eine Änderung
+
 Game::Game() 
     :   window(sf::VideoMode({600u, 600u}), "Spiel"),
         view(sf::FloatRect(sf::Vector2f({0,-600}), sf::Vector2f({600,600}))),
